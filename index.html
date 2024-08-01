@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="section">
+        <div class="container-fluid certificate">
+            <div class="box">
+
+                <div class="row top">
+                    
+                <!--Serial No.-->
+                <div class="col-4 serial">          
+                    <b>Sr. No. <span>0000000</span></b>
+                </div>
+
+                <!-- Logo -->
+                 <div class="col-4 logo">
+                    <img src="/Marksheet/Assets/logo clg.png" alt="">
+                 </div>
+
+                 <!-- QR CODE -->
+                  <div class="col-4 qr">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <!-- /* ===============================2nd============== */ -->
+            <div class="row title">
+                <img src="/Marksheet/Assets/Hindusthan College of Engineering and Technology.jpg" alt="">
+            </div>
+
+            <!-- =========================3rd======================== -->
+            <div class="row head">
+                <h1><b>Annual Statement of Marks</b></h1>
+            </div>
+
+            <!-- ================================4th======================= -->
+             <div class="info">
+                <table>
+                    <tr>
+                        <th colspan="2">Name of the Candidate <br> <span>Barath Raj K</span>
+                        </th>
+                        <th colspan="2">Course name with Code <br> <span>Electronics and Communication Engineering<br>DFS012</span>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>Reg. No. <br><span>720721106034</span></td>
+                        <td>Enrollment. No. <br> <span>720721106034</span></td>
+                        <td rowspan="2">nrollment. No. <br> <span>720721106034</span></td>
+                    </tr>
+                 </table>
+             </div>
+
+             <!-- ========================5th=============== -->
+             <div class="marks">
+                <table class="combined-table">
+                    <thead>
+                        <tr>
+                            <th rowspan="2">Subject Code</th>
+                            <th rowspan="2">Subject Name</th>
+                            <th rowspan="2">Max. Marks</th>
+                            <th colspan="3">Marks Obtained in Figures</th>
+                        </tr>
+                        <tr>
+                            <th>Theory</th>
+                            <th>Practical</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>DFS102-101</td>
+                            <td>Fire Science and Technology</td>
+                            <td>100</td>
+                            <td><input  type="number" id="th1"></td>
+                            <td><input  type="number" id="pr1"></td>
+                            <td><div class='sub-tot' id="tot1">...</div></td>
+                        </tr>
+                        <tr>
+                            <td>DFS102-102</td>
+                            <td>Fire Science and Technology</td>
+                            <td>100</td>
+                            <td><input  type="number" id="th2"></td>
+                            <td><input  type="number" id="pr2"></td>
+                            <td><div class='sub-tot' id="tot2">...</div></td>
+                        </tr>
+                        <tr>
+                            <td>DFS102-103</td>
+                            <td>Fire Science and Technology</td>
+                            <td>100</td>
+                            <td><input  type="number" id="th3"></td>
+                            <td><input  type="number" id="pr3"></td>
+                            <td><div class='sub-tot' id="tot3">...</div></td>
+                        </tr>
+                        <tr>
+                            <td>DFS102-104</td>
+                            <td>Fire Science and Technology</td>
+                            <td>100</td>
+                            <td><input  type="number" id="th4"></td>
+                            <td><input  type="number" id="pr4"></td>
+                            <td><div class='sub-tot' id="tot4">...</div></td>
+                        </tr>
+                        <tr>
+                            <td>DFS102-105</td>
+                            <td>Fire Science and Technology</td>
+                            <td>100</td>
+                            <td><input  type="number" id="th5"></td>
+                            <td><input  type="number" id="pr5"></td>
+                            <td><div class='sub-tot' id="tot5">...</div></td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+              <!-- ======================6th========================== -->
+              <hr>
+              <div class="row total">
+                <div class="col-2">
+                    <h3><span id="topic">Grand total</span></h3>
+                </div>
+                <div class="col-10">
+                    <h3>000</h3>
+                </div>
+            </div> 
+            <hr>
+
+              <!-- ==========================7th==================== -->
+               <div class="row">
+                <table>
+                    <tr>
+                        <th>Month and Year of Examination </th>
+                        <th> No. of Subjects Offered</th>
+                        <th>Result </th>
+                        <th>Percentage </th>
+                        <th>Grade </th>
+                    </tr>
+                    <tr>
+                        <td><b>MAY 2020</b></td>
+                        <td><b>T8 = 8</b></td>
+                        <td id="pass"><b>PASS</b></td>
+                        <td id="perc"><b>00.00%</b></td>
+                        <td id="grade"><b>(GRADE)</b></td>
+                    </tr>
+                   </table>
+               </div>
+
+               <!-- ================================bottom==================== -->
+               <div class="para">
+                    <p>This sample of Annual Statement of mark is prepared as per <br> Skill development Management Initiative, <br> Under Ministry of Skill Development and Enterprenurship, <br>Govt of India</p>
+               </div>
+               <div class="row bottom">
+                    <div class="col-4">
+                        <p><span>Date:</span><span id="date"></span></p>
+                    </div>
+                    <div class="col-4 center">
+                        <p><span>Subjects Marked with * indicates Exemption</span></p>
+                    </div>
+                    <div class="col-4 center">
+                        <p><span>Alex</span> <br>Deputy Controller of Examination</p>
+                    </div>
+               </div>
+
+        </div>
+
+
+
+
+        </div>
+    </div>
+
+    <img src="" alt="">
+</body>
+<script src="scipt.js"></script>
+</html>
